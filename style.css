@@ -1,7 +1,7 @@
 body, html {
   height: 100%;
 }
-
+/* BACKGROUND IMAGE TOP */
 .bg {
   background-image: url("https://freerangestock.com/sample/82702/rocks-and-bokeh-.jpg");
   height: 50%;
@@ -9,6 +9,9 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
+/* GENERAL STYLING */
 .container-fluid {
   /* border: 1px solid black; */
   padding: inherit
@@ -20,39 +23,34 @@ body, html {
   border: 2px solid greenyellow;
   font-family: 'Rambla', 'Jockey One', 'Oswald', 'Roboto Condensed', sans-serif;
 }
-
 .row {
   display: flex;
-  
 }
+
+
+
+/* NAVBAR STYLING */
 .navbar {
   display: flex;
   text-align: right;
   justify-content: flex-end;
   align-self: flex-end;
 }
-
-/* adding display:flex removed the right alignment from nav-bar */
 .nav-link, .navbar {
   text-align: right;
 
 align-items: flex-end;
 }
-
 #navbarNav {
-
   justify-content: flex-end;
 }
-/* .navbar-toggler-icon {
-  align-items: flex-end;
-  justify-content: flex-end;
-} */
-
 .logo {
   height: auto;
   width: 25pt;
 }
 
+
+/* Top Page Content */
 .video1 {
   height: auto;
   width: 50pt;
@@ -72,6 +70,8 @@ align-items: flex-end;
   align-self: center;
 }
 
+
+/* Button Styling */
 .btn-danger {
   border-radius: 40px;
   line-height: 20px;
@@ -82,6 +82,10 @@ align-items: flex-end;
 .box-shadow--8dp {
   box-shadow: 0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .2)
 }
-.card-image-top {
-  background-image: url("https://www.guidebooktolife.com/admin-content/head-banner-image/151035274.jpg");
+
+
+
+/* Card Styling */
+.card-img-top {
+  border-radius: 50%;
 }
