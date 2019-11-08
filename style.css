@@ -1,0 +1,10 @@
+.container {
+  border: 1px solid black;
+}
+.row {
+  border: 2px solid fuchsia;
+}
+.col {
+  border: 2px solid greenyellow;
+  font-family: 'Rambla', 'Jockey One', 'Oswald', 'Roboto Condensed', sans-serif;
+}
