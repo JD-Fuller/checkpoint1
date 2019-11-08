@@ -1,10 +1,45 @@
-.container {
+body, html {
+  height: 100%;
+}
+.container-fluid {
   border: 1px solid black;
 }
 .row {
-  border: 2px solid fuchsia;
+  border: 2.5px solid fuchsia;
 }
 .col {
   border: 2px solid greenyellow;
   font-family: 'Rambla', 'Jockey One', 'Oswald', 'Roboto Condensed', sans-serif;
+}
+
+.row {
+  display: flex;
+  
+}
+.navbar {
+  display: flex;
+  text-align: right;
+  justify-content: flex-end;
+  align-self: flex-end;
+}
+
+/* adding display:flex removed the right alignment from nav-bar */
+.nav-link, .navbar {
+  text-align: right;
+
+align-items: flex-end;
+}
+
+#navbarNav {
+
+  justify-content: flex-end;
+}
+/* .navbar-toggler-icon {
+  align-items: flex-end;
+  justify-content: flex-end;
+} */
+
+.logo {
+  height: auto;
+  width: 25pt;
 }
