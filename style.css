@@ -1,6 +1,10 @@
 body, html {
   height: 100%;
 }
+
+.bg {
+  background-image: url("https://freerangestock.com/sample/82702/rocks-and-bokeh-.jpg");
+}
 .container-fluid {
   border: 1px solid black;
 }
@@ -61,4 +65,15 @@ align-items: flex-end;
 }
 .top-page-content {
   align-self: center;
+}
+
+.btn-danger {
+  border-radius: 40px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  font-size: 20px;
+  border: 2px solid var(--danger);
+}
+.box-shadow--8dp {
+  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .2)
 }
