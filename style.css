@@ -48,3 +48,17 @@ align-items: flex-end;
   height: auto;
   width: 50pt;
 }
+.media1content {
+  display: flex;
+  color: gray;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+}
+.media1 {
+  text-align: center;
+}
+.top-page-content {
+  align-self: center;
+}
