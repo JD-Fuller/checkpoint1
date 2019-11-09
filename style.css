@@ -3,7 +3,8 @@ body, html {
 }
 /* BACKGROUND IMAGE TOP */
 .bg {
-  background-image: url("https://freerangestock.com/sample/82702/rocks-and-bokeh-.jpg");
+  /* background-image: url("https://freerangestock.com/sample/82702/rocks-and-bokeh-.jpg"); */
+  background-image: url("https://images.unsplash.com/photo-1541681142377-e350759029d0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80");
   height: 50%;
   background-position: 50%;
   background-repeat: no-repeat;
@@ -30,6 +31,10 @@ body, html {
 
 
 /* NAVBAR STYLING */
+
+.logo {
+  color: white;
+}
 .navbar {
   display: flex;
   text-align: right;
@@ -86,18 +91,53 @@ align-items: flex-end;
 
 
 /* Card Styling */
-
+.card-row {
+  background-image: url("https://frankjdimaurodmd.com/wp-content/uploads/2015/03/minimalistic-white-fog-silver-digital-art-white-background-HD-Wallpapers.jpg");
+  height: 50%;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .card {
   border: none;
   text-align: -webkit-center;
+  background-color: transparent;
+}
+.card-deck {
+  justify-content: space-around;
 }
 .card-img-top {
+  background-color: transparent;
   border-radius: 50%;
-  height: auto;
-  width: 200px;
+  max-height: 100pt;
+  width: 180px;
+  position: relative;
+  margin: 0 0 1em 0;
+  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, .16), 0 3px 14px 2px rgba(0, 0, 0, .16), 0 5px 5px -3px rgba(0, 0, 0, .23);
 }
 .card-body {
   width: auto;
+  max-width: 17em;
   height: auto;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  background-color: rgb(250, 251, 252);
+  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, .16), 0 3px 14px 2px rgba(0, 0, 0, .16), 0 5px 5px -3px rgba(0, 0, 0, .23);
+  text-align: initial;
+  border-radius:9%;
+}
+
+.card-section {
+  margin: 50pt 50pt -34pt 50pt;
+}
+.card-title {
+
+  font-family: volkhorn;
+
+}
+
+/* Horizontal Row */
+
+hr {
+  border: 2.5pt solid rgb(64, 64, 65);
+  margin: 60pt;
 }
