@@ -28,7 +28,10 @@ body, html {
   display: flex;
 }
 
-
+h4 {
+  font-variant: all-small-caps;
+  font-size: 25pt;
+}
 
 /* NAVBAR STYLING */
 
@@ -99,40 +102,58 @@ align-items: flex-end;
   background-size: cover;
 }
 .card {
+  justify-content: center;
   border: none;
+  margin: 23pt;
   text-align: -webkit-center;
   background-color: transparent;
+  padding: 0 1em 0 1em;
 }
 .card-deck {
-  justify-content: space-around;
+  /* justify-content: space-around; */
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .card-img-top {
-  background-color: transparent;
   border-radius: 50%;
-  max-height: 100pt;
-  width: 180px;
+  height: 120pt;
+  width: 120pt;
   position: relative;
   margin: 0 0 1em 0;
   box-shadow: 0 8px 10px 1px rgba(0, 0, 0, .16), 0 3px 14px 2px rgba(0, 0, 0, .16), 0 5px 5px -3px rgba(0, 0, 0, .23);
 }
 .card-body {
-  width: auto;
+  width: 30em;
   max-width: 17em;
   height: auto;
   /* border: 1px solid black; */
   background-color: rgb(250, 251, 252);
   box-shadow: 0 8px 10px 1px rgba(0, 0, 0, .16), 0 3px 14px 2px rgba(0, 0, 0, .16), 0 5px 5px -3px rgba(0, 0, 0, .23);
-  text-align: initial;
+  text-align: center;
   border-radius:9%;
+  padding: 1em 1em 20pt 1em;
 }
 
 .card-section {
   margin: 50pt 50pt -34pt 50pt;
+  justify-content: space-evenly;
+
 }
 .card-title {
+  color: gray;
+  font-variant: all-small-caps;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.card-text {
+  color: gray;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
 
-  font-family: volkhorn;
-
+.btn-light {
+  position: absolute;
+  right: 6em;
+  bottom: -2em;
+  border: 2px solid lightslategray;
 }
 
 /* Horizontal Row */
