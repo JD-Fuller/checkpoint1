@@ -189,8 +189,82 @@ hr {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 10pt;
-  
 }
+
+/* Logo Bottom Row - Media 3 */
+.media3 {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+}
+.media3box {
+  flex-basis: 15%;
+  justify-content: center;
+  text-align: center;
+  padding: 5em;
+}
+.logo-bottom {
+  width: 45pt;
+  /* filter: invert(100%); */
+  filter: invert(80%) blur(0.7px);
+}
+
+/*Filter styles*/
+.saturate {
+  filter: saturate(3);
+}
+.grayscale {
+  filter: grayscale(100%);
+}
+.contrast {
+  filter: contrast(160%);
+}
+.brightness {
+  filter: brightness(0.25);
+}
+.blur {
+  filter: blur(3px);
+}
+.invert {
+  filter: invert(100%);
+}
+.sepia {
+  filter: sepia(100%);
+}
+.huerotate {
+  filter: hue-rotate(180deg);
+}
+.rss.opacity {
+  filter: opacity(50%);
+}
+
+/* Footer */
+
+.row.footer {
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footerbox1 .footerbox2 .footerbox3 {
+  font-variant: all-small-caps;
+  padding: 10px;
+  flex: 1;
+  text-align: center;
+}
+/* .footerbox2 {
+  font-variant: all-small-caps;
+  padding: 10px;
+  flex: 1;
+  text-align: center;
+}
+.footerbox3 {
+  font-variant: all-small-caps;
+  padding: 10px;
+  flex: 1;
+  text-align: center;
+} */
 
 @media screen and (max-width: 768px) {
   .media2 {
@@ -201,33 +275,18 @@ hr {
     flex-basis: 60%;
     padding: 2rem 1rem;
   }
-}
 
-/* Logo Bottom Row - Media 3 */
-.media3 {
-  display: flex;
-  justify-content: space-around;
-  background-color: black;
+  .row.footer {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  .footerbox1 .footerbox2 .footerbox3 {
+    font-variant: all-small-caps;
+    padding: 1px;
+    flex: 1;
+    text-align: center;
+    
+  }
 }
-.media3box{
-  flex-basis: 15%;
-  justify-content: center;
-  text-align: center;
-  padding: 5em;
-}
-.logo-bottom {
-  width: 45pt;
-  /* filter: invert(100%); */
-  filter: invert(80%) blur(.7px);
-}
-
-/*Filter styles*/
-.saturate { filter: saturate(3); }
-.grayscale { filter: grayscale(100%); }
-.contrast { filter: contrast(160%); }
-.brightness { filter: brightness(0.25); }
-.blur { filter: blur(3px); }
-.invert { filter: invert(100%); }
-.sepia { filter: sepia(100%); }
-.huerotate { filter: hue-rotate(180deg); }
-.rss.opacity { filter: opacity(50%); }
