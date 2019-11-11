@@ -252,6 +252,8 @@ hr {
   padding: 10px;
   flex: 1;
   text-align: center;
+  margin: 3em;
+  padding: 2em;
 }
 /* .footerbox2 {
   font-variant: all-small-caps;
