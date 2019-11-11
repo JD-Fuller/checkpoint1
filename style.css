@@ -299,6 +299,7 @@ hr {
   text-align: right;
 }
 .footerbox3 h5 {
+  /* space between icons */
   word-spacing: 5px;
 }
 .footerbox1 h5:hover, .footerbox2 h5:hover, .fab:hover {
