@@ -281,10 +281,11 @@ hr {
   .row.footer {
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin-top: 2em;
     margin-bottom: 2em;
   }
-  .footerbox1, .footerbox2, .footerbox3 {
+  .footerbox1 .footerbox2 .footerbox3 {
     font-variant: all-small-caps;
     padding: 1px;
     flex: 1;
