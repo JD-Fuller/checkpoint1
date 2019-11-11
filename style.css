@@ -271,6 +271,7 @@ hr {
   text-align: center;
   background-color: black;
   color: white;
+  padding: 1em;
 }
 
 .footerbox1,
@@ -320,11 +321,12 @@ hr {
     flex-basis: 60%;
     padding: 2rem 1rem;
   }
-
+/* Footer */
   .row.footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 1em;
   }
 
   .footerbox1,
