@@ -70,12 +70,20 @@ h4.main-title {
   width: 25pt;
 }
 
+video {
+  height: auto;
+  width: auto;
+}
+
 /* Top Page Content */
 .media1 {
   text-align: center;
   margin-bottom: 1em;
 }
 .top-page-content {
+  align-self: center;
+}
+.videobox {
   align-self: center;
 }
 .media1content {
@@ -85,7 +93,7 @@ h4.main-title {
   justify-content: center;
   align-content: center;
   align-self: center;
-  padding: 5pt;
+  padding: 5pt 5pt 2rem 5pt;
 }
 /* Button Styling */
 .btn-danger {
@@ -284,6 +292,12 @@ hr {
 .footerbox3 {
   text-align: right;
 }
+.footerbox1 h5:hover, .footerbox2 h5:hover, .fab:hover {
+  color:red;
+
+}
+
+
 
 @media screen and (max-width: 540px) {
   .card-row {
