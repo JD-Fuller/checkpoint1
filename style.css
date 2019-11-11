@@ -245,12 +245,13 @@ hr {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  text-align: center;
 }
 
 .footerbox1 .footerbox2 .footerbox3 {
   font-variant: all-small-caps;
   padding: 10px;
-  flex: 1;
+  /* flex: 1; */
   text-align: center;
   margin: 3em;
   padding: 2em;
