@@ -22,7 +22,7 @@ html {
   display: flex;
   margin: 0;
 }
-.col,
+.col, .col-12, 
 .card-deck,
 .card {
   /* border: 2px solid greenyellow; */
