@@ -226,10 +226,15 @@ hr {
   width: 45pt;
   filter: invert(80%) blur(0.7px);
 }
+
 .media3box h5 {
   font-variant: all-small-caps;
   font-size: 25pt;
   padding: 0.1rem;
+}
+.media3box h5:hover {
+  /* color: red; */
+  border:.5px 1px 30px red;
 }
 
 /*Filter styles*/
