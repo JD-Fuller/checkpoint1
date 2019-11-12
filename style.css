@@ -322,6 +322,13 @@ hr {
   .media1content {
     align-items: center;
   }
+  .media1content h4 {
+    font-size: 45pt;
+  }
+  .media1content .p-heading {
+    font-size: 14pt;
+    text-align: center;
+  }
   .media2 {
     flex-direction: column;
   }
