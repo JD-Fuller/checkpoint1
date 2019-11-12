@@ -29,6 +29,11 @@ html {
   font-family: "Rambla", "Jockey One", "Oswald", "Roboto Condensed", sans-serif;
 }
 
+/* Override the line break issue with the button */
+.btn {
+  z-index: 1;
+}
+
 h4.main-title {
   font-variant: all-small-caps;
   font-size: 70pt;
