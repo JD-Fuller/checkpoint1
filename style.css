@@ -77,12 +77,6 @@ h4.main-title {
   width: 25pt;
 }
 
-.videobox {
-  height: auto;
-  width: auto;
-  padding-top: 4em;
-}
-
 /* Top Page Content */
 .media1 {
   text-align: center;
@@ -93,6 +87,9 @@ h4.main-title {
 }
 .videobox {
   align-self: center;
+  height: auto;
+  width: auto;
+  padding-top: 4em;
 }
 .media1content {
   display: flex;
@@ -102,6 +99,9 @@ h4.main-title {
   align-content: center;
   align-self: center;
   padding: 5pt 5pt 2rem 5pt;
+}
+iframe {
+  min-height: 30vh;
 }
 /* Button Styling */
 .btn-danger {
