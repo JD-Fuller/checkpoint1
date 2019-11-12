@@ -33,6 +33,7 @@ html {
 /* Override the line break issue with the button */
 .btn {
   z-index: 1;
+  cursor: pointer;
 }
 
 h4.main-title {
@@ -244,6 +245,7 @@ iframe {
 .media3 h5:hover {
   color: white;
   text-shadow: 0.5px 1px 30px black;
+  cursor: pointer;
 }
 
 /*Filter styles*/
@@ -315,6 +317,7 @@ iframe {
 .footerbox2 h5:hover,
 .fab:hover {
   color: red;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 540px) {
